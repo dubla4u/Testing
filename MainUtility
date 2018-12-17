@@ -1,0 +1,172 @@
+;Welcome To Ark Scripting For Fun
+;ADMIN LOGIN
+^Numpad0:: 
+Send, ~enablecheats Forgetit1{enter}
+Return
+
+;COMBAT/TAMING [Gauss rifle(both scopes), ammo, narcammo, obsidian sword, biotoxin, food, water]
+^Numpad1::
+Send, ~cheat giveitem "Blueprint'/Game/Mods/MRRadTools/Gauss_rifle/Blueprints/PrimalItem_Gauss_New.PrimalItem_Gauss_New'" 1 1 0{enter}
+sleep, 50
+Send, ~cheat giveitem "Blueprint'/Game/Mods/MRRadTools/Gauss_rifle/Blueprints/PrimalItemAmmo_Gauss.PrimalItemAmmo_Gauss'" 100 1 0{enter}
+sleep, 50
+Send, ~cheat giveitem "Blueprint'/Game/Mods/MRRadTools/Gauss_rifle/Blueprints/PrimalItemAmmo_Gauss_Tranq.PrimalItemAmmo_Gauss_Tranq'" 100 1 0{enter}
+sleep, 50
+Send, ~cheat giveitem "Blueprint'/Game/Mods/MRRadTools/obsidianSword/Blueprints/PrimalItem_WeapObsidianSword.PrimalItem_WeapObsidianSword'" 1 1 0{enter}
+sleep, 50
+Send, ~cheat giveitem "Blueprint'/Game/Mods/MRRadTools/Attachments/Blueprints/PrimalItemRadWeaponAttachment_Scope_Gauss.PrimalItemRadWeaponAttachment_Scope_Gauss'" 1 1 0{enter}
+sleep, 50
+Send, ~cheat giveitem "Blueprint'/Game/Mods/MRRadTools/Attachments/Blueprints/PrimalItemRadWeaponAttachment_Holo.PrimalItemRadWeaponAttachment_Holo'" 1 1 0{enter}
+sleep,50
+Send, ~cheat gfi JellyVenom 100 1 0{enter}
+sleep, 50
+Send, ~cheat gfi PrimalItemConsumable_CanteenRefill 1 1 0{enter}
+sleep, 50
+Send, ~cheat gfi CookedLambChop 50 1 0{enter}
+Return
+
+;Shotgun w/ Accessories + Ammo + Ammo(Narc)
+^Numpad2::
+Send, ~cheat giveitem "Blueprint'/Game/Mods/MRRadTools/V83_Shotgun/Blueprints/PrimalItem_V83Shotgun.PrimalItem_V83Shotgun'" 1 1 0{enter}
+sleep, 50
+Send, ~cheat giveitem "Blueprint'/Game/Mods/MRRadTools/Attachments/Blueprints/PrimalItemRadWeaponAttachment_Silencer.PrimalItemRadWeaponAttachment_Silencer'" 1 1 0{enter}
+sleep, 50
+Send, ~cheat giveitem "Blueprint'/Game/Mods/MRRadTools/Attachments/Blueprints/PrimalItemRadWeaponAttachment_Holo.PrimalItemRadWeaponAttachment_Holo'" 1 1 0{enter}
+sleep, 50
+Send, ~cheat giveitem "Blueprint'/Game/Mods/MRRadTools/Attachments/Blueprints/PrimalItemRadWeaponAttachment_Stock.PrimalItemRadWeaponAttachment_Stock'" 1 1 0{enter}
+sleep, 50
+Send, ~cheat giveitem "Blueprint'/Game/Mods/MRRadTools/V83_Shotgun/Blueprints/Ammo/PrimalItemAmmo_V83_Shot.PrimalItemAmmo_V83_Shot'" 100 1 0{enter}
+sleep, 50
+Send, ~ cheat giveitem "Blueprint'/Game/Mods/MRRadTools/V83_Shotgun/Blueprints/Ammo/PrimalItemAmmo_V83_Shock.PrimalItemAmmo_V83_Shock'" 100 1 0{enter}
+sleep, 50
+Return
+
+;SFR w/ Accessories + Ammo
+^Numpad3::
+Send, ~cheat giveitem "Blueprint'/Game/Mods/MRRadTools/SFR100T/Blueprints/PrimalItem_SFR100T_New.PrimalItem_SFR100T_New'" 1 1 0{enter}
+sleep, 50
+Send, ~cheat giveitem "Blueprint'/Game/Mods/MRRadTools/Attachments/Blueprints/PrimalItemRadWeaponAttachment_Silencer.PrimalItemRadWeaponAttachment_Silencer'" 1 1 0{enter}
+sleep, 50
+Send, ~cheat giveitem "Blueprint'/Game/Mods/MRRadTools/Attachments/Blueprints/PrimalItemRadWeaponAttachment_Scope_SFR.PrimalItemRadWeaponAttachment_Scope_SFR'" 1 1 0{enter}
+sleep, 50
+Send, ~cheat giveitem "Blueprint'/Game/Mods/MRRadTools/Attachments/Blueprints/PrimalItemRadWeaponAttachment_LaserFlash_SFR.PrimalItemRadWeaponAttachment_LaserFlash_SFR'" 1 1 0{enter}
+sleep, 50
+Send, ~cheat giveitem "Blueprint'/Game/Mods/MRRadTools/SFR100T/Blueprints/PrimalItemAmmo_AdvancedSFR45Ammo.PrimalItemAmmo_AdvancedSFR45Ammo'" 1 1 0{enter}
+Return
+
+;Tek Armor Lottery(x10)
+^Numpad9::
+Send, ~cheat gfi TekShirt 10 65 0{enter}
+sleep, 50
+Send, ~cheat gfi TekPants 10 65 0{enter}
+sleep, 50
+Send, ~cheat gfi TekBoots 10 65 0{enter}
+sleep, 50
+Send, ~cheat gfi TekGloves 10 65 0{enter}
+sleep, 50
+Send, ~cheat gfi TekHelmet 10 65 0{enter}
+Return
+
+;Riot Armor Lottery(x10)
+!Numpad9::
+Send, ~cheat gfi RiotShirt 10 65 0{enter}
+sleep, 50
+Send, ~cheat gfi RiotPants 10 65 0{enter}
+sleep, 50
+Send, ~cheat gfi RiotBoots 10 65 0{enter}
+sleep, 50
+Send, ~cheat gfi RiotGloves 10 65 0{enter}
+sleep, 50
+Send, ~cheat gfi RiotHelmet 10 65 0{enter}
+sleep, 50
+Return
+
+;Element (x1000)
+^Numpad7::
+Send, ~cheat gfi PrimalItemResource_Element 1000 1 0{enter}
+Return
+
+;Food Trough Refill
+^Numpad8::
+Send, ~cheat gfi PrimalItemConsumable_RawMeat 2000 1 0{enter}
+sleep, 50
+Send, ~cheat gfi PrimalItemConsumable_CookedMeat 2000 1 0{enter}
+sleep, 50
+Send, ~cheat gfi PrimalItemConsumable_RawPrimeMeat 2000 1 0{enter}
+sleep, 50
+Send, ~cheat gfi PrimalItemConsumable_CookedPrimeMeat 2000 1 0{enter}
+sleep, 50
+Send, ~cheat gfi RawMeat_Fish 2000 1 0{enter}
+sleep, 50
+Send, ~cheat gfi RawPrimeMeat_Fish 2000 1 0{enter}
+sleep, 50
+Send, ~cheat gfi Berry_Amarberry 5000 1 0{enter}
+sleep, 50
+Send, ~cheat gfi Berry_Azulberry 5000 1 0{enter}
+sleep, 50
+Send, ~cheat gfi Berry_Mejoberry 5000 1 0{enter}
+sleep, 50
+Send, ~cheat gfi Berry_Tintoberry 5000 1 0{enter}
+sleep, 50
+Send, ~cheat gfi Veggie_Citronal 100 1 0{enter}
+sleep, 50
+Send, ~cheat gfi Veggie_Longrass 100 1 0{enter}
+sleep, 50
+Send, ~cheat gfi Veggie_Rockarrot 100 1 0{enter}
+sleep, 50
+Send, ~cheat gfi Veggie_Savoroot 100 1 0{enter}
+sleep, 50
+Send, ~cheat gfi Honey 50 1 0{enter}
+sleep, 50
+Send, ~cheat gfi SweetVeggieCake 10 1 0{enter}
+sleep, 50
+Return
+
+;TITANS
+;Forrest
+^Numpad5::
+Send, ~cheat gfi Extinction_ForestKaiju 1 1 0{enter}
+sleep, 50
+Send, ~cheat gfi RareDrop_CorruptHeart 100 1 0{enter}
+sleep, 50
+Send, ~cheat gfi PrimalItemResource_ApexDrop_Sauro 10 1 0{enter}
+sleep, 50
+Send, ~cheat gfi PrimalItemResource_ApexDrop_Rex 10 1 0{enter}
+sleep, 50
+Return
+
+;Ice
+!Numpad5::
+Send, ~cheat gfi Extinction_IceKaiju 1 1 0{enter}
+sleep, 50
+Send, ~cheat gfi RareDrop_CorruptHeart 100 1 0{enter}
+sleep, 50
+Send, ~cheat gfi PrimalItemResource_ApexDrop_Spino 10 1 0{enter}
+sleep, 50
+Send, ~cheat gfi PrimalItemResource_ApexDrop_Theriz 10 1 0{enter}
+sleep, 50
+Return
+
+;Desert
+^!Numpad5::
+Send, ~cheat gfi Extinction_DesertKaiju 1 1 0{enter}
+sleep, 50
+Send, ~cheat gfi RareDrop_CorruptHeart 100 1 0{enter}
+sleep, 50
+Send, ~cheat gfi PrimalItemResource_ApexDrop_FireWyvern 10 1 0{enter}
+sleep, 50
+Send, ~cheat gfi PrimalItemResource_ApexDrop_Sarco 10 1 0{enter}
+sleep, 50
+Return
+
+
+
+
+
+
+
+
+
+
+
+	 
